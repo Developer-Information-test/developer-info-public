@@ -1,1 +1,4 @@
-col1\tcol2
+GHSA_ID<tab>Package_Name<tab>Severity<tab>Vulnerable_Version<tab>Patched_Version<tab>Repository
+GHSA-j8h9-72j4-968g<tab>express<tab>High<tab>4.15.2<tab>>4.19.0<tab>my-org/web-frontend
+GHSA-2w8j-6w97-y6x6<tab>Jinja2<tab>Moderate<tab>2.11.2<tab>2.11.3<tab>my-org/python-api
+GHSA-4h5c-rqv8-5v2p<tab>log4j<tab>Critical<tab>1.2.17<tab>2.17.2<tab>my-org/java-service
