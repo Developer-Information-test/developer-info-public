@@ -1,0 +1,9 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+
+version: 2
+updates:
+  - package-ecosystem: "gradle"  # 1. CORRECTED: Specifies the ecosystem for Kotlin/Java Gradle projects.
+    directory: "/test"           # 2. CORRECTED: Points to the 'test' subdirectory where the file is located.
+    schedule:
+      interval: "weekly"
