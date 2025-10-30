@@ -1,1 +1,1 @@
-aws_session_token = "**AQoDAYjXzRzS2pZfGgT..."**
+JWT_SECRET = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIwMTAxMjMifQ.SflKxwR...XWd"
