@@ -1,1 +1,7 @@
-Leading underscore
+# Python dependencies for the project
+flask
+werkzeug
+# 🛑 THIS IS THE VULNERABLE DEPENDENCY 🛑
+# Jinja2 version 2.11.2 and below had a high-severity vulnerability (CVE-2020-5279) 
+# related to template injection if certain extensions were enabled.
+Jinja2==2.11.2
