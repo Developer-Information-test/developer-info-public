@@ -1,0 +1,17 @@
+# Configuration for temporary staging environment access
+
+# 1. AWS Secret Key (Identified by AKIA prefix and base64-like structure)
+AWS_ACCESS_KEY_ID="AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+# 2. GitHub Personal Access Token (Identified by ghp_ prefix and length)
+GITHUB_TOKEN="ghp_S3CR3Tf0RTeMpAcc3ssGHp1a2B3c4D5e6F7"
+
+# 3. Google API Key (Identified by AIza prefix)
+GOOGLE_MAPS_API_KEY="AIzaSyB_c_hWdJkL_mNoP_qRsTuV_wXyZ012345"
+
+# 4. Stripe Live Secret Key (Identified by sk_live_ prefix)
+STRIPE_SECRET_KEY="sk_live_51H8LzG2lD1f8Zz3E0Vz78xWz2Qexample"
+
+# 5. Generic Private Key (Identified by the file headers)
+RSA_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----\nMIICXgIBAAKCAQEAwZ...jC7A1g==\n-----END RSA PRIVATE KEY-----"
